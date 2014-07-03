@@ -38,8 +38,9 @@ If you’re interested in offering prizes, motivators or help (books, online cou
 
 ### Sounds great! How do I enter?
 
-1. Send a pull request to this repo. Your PR must add a file with your project name to the `projects/` folder, following the template in `projects/TEMPLATE.md` + adding an entry to the “[Big Board](#the-big-board)” section below.
-2. (Optional) Register for the [mailing-list](https://groups.google.com/forum/#!forum/summer-of-swift) so you can share & receive project updates from others, hear about any upcoming Summer hacknights or prizes, or ask for help.
+Send a pull request to this repo. Your PR must add a file with your project name to the `projects/` folder, following the template in `projects/TEMPLATE.md` + adding an entry to the “[Big Board](#the-big-board)” section below.
+
+We do want to share a few aggregate updates about other Summer projects, as well as any announcements about prizes, local groups or hacknights by email (using the address in your initial git commit). You can let us know in the PR if you’d rather not receive any updates.
 
 ### I don’t have a project / can I join a project?
 
