@@ -9,7 +9,7 @@ The Summer of Swift came from conversations at SF’s [Swift Language User Group
 
 ### How does it work?
 
-Participants in the Summer work on a project alone or in teams. To enter, just send a pull request to this repo to add a file to the `projects/` folder. That file should describe your project, following the template in [`projects/TEMPLATE.md`](projects/TEMPLATE.md). Your pull request should also add an entry to the “[Big Board](#the-big-board)” section below.
+Participants in the Summer work on a project alone or in teams. **To enter, submit a pull request to this repo by July 15th**. Your PR should add a description of your project to the `projects/` folder, following the template in [`projects/TEMPLATE.md`](projects/TEMPLATE.md); it should also add an entry to the “[Big Board](#the-big-board)” section in this README.
 
 **_The only rule of the Summer of Swift is that you must edit your project file at least once every 2 weeks with an update on your progress & what you have learned so far. Projects who fail to do so will be crossed off from the “Big Board”._**
 
@@ -41,7 +41,7 @@ If you’re interested in offering prizes, motivators or help (books, online cou
 
 ### Sounds great! How do I enter?
 
-Send a pull request to this repo. Your PR must add a file with your project name to the `projects/` folder, following the template in [`projects/TEMPLATE.md`](projects/TEMPLATE.md) + adding an entry to the “[Big Board](#the-big-board)” section below.
+Send a pull request to this repo. Your PR must add a file with your project name to the `projects/` folder, following the template in [`projects/TEMPLATE.md`](projects/TEMPLATE.md) + adding an entry to the “[Big Board](#the-big-board)” section below. We ask that all projects enter the contest by July 15th at the latest.
 
 We do want to share a few aggregate updates about other Summer projects, as well as any announcements about prizes, local groups or hacknights by email (using the address in your initial git commit). You can let us know in the PR if you’d rather not receive any updates.
 
