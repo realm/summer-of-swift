@@ -23,7 +23,7 @@ The contest will run until September 30th and will conclude with a 2-hour meetup
 
 Anything you want that helps you deepen your understanding of Swift: apps, games, libraries, tooling, documentation — anything is fair!
 
-### That bimonthly update requirement sounds rough!
+### That bi-monthly update requirement sounds rough!
 
 The bi-monthly update requirement is just there to encourage people to stay engaged and stick with their Swift project over a meaningful period of time. We understand that people have work, vacation, family and other things that may not let them adhere to an agressive learning schedule! Any of the following would be a good update
 - Github push to your repo
