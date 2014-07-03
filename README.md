@@ -60,3 +60,4 @@ Reach out to Arwa \<arwa@realm.io\> and Tim \<tim@realm.io\>
 
 This is the list of all the teams that have entered. Teams that are crossed off missed at least one bimonthly update.
 
+- [Jazzy](projects/jazzy.md) by @jpsim & @timanglade
