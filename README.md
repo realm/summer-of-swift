@@ -15,9 +15,9 @@ Participants in the Summer work alone or in teams. To enter, just send a pull re
 
 **_The only rule of the Summer of the is that you must update this file at least once every 2 weeks with an update on your progress. Teams who fail to do so will be crossed off from the “Big Board”._**
 
-If your update falls around one of the [SLUG](http://www.meetup.com/swift-language) meetups, we encourage you to give your update in person — we’ll give every participating team a 5-minute lightning talk to demo their progress & share what they’ve learned. If you cannot make it in person, you should share your progress on your blog, github, twitter, youtube etc. We’ll aggregate all the updates and share them with the group.
+If your update falls around one of the [SLUG](http://www.meetup.com/swift-language) meetups, we encourage you to give your update in person — we’ll give every participating team a 5-minute lightning talk to demo their progress & share what they’ve learned at every meetup. If you cannot make it in person, you should share your progress on your blog, github, twitter, youtube etc. We’ll aggregate all the updates and share them with the group.
 
-The contest will run until September 30th with a 2-hour meetup devoted a retrospective with all the teams that toughed it out through the Summer. They will show off their apps and summarize all that they have learned about Swift over the Summer.
+The contest will run until September 30th and will conclude with a 2-hour meetup entirely devoted to the teams that toughed it out through the Summer. They will show off their apps and summarize all that they have learned about Swift over the Summer.
 
 ### What can I work on?
 
