@@ -50,7 +50,7 @@ Absolutely, based on demand, we’ll try to organize a weekly or bi-weekly hackn
 
 ### Do I have to be in San Francisco this Summer to enter?
 
-No, you can compete from anywhere as long as you give us updates regularly.
+No, you can compete from anywhere as long as you give us updates regularly. If you host a Swift meetup in another city and would like to host regular lightning talks by contestants, let us know and we’ll add you to this page to let people know!
 
 # The Big Board
 
