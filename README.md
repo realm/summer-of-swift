@@ -16,13 +16,11 @@ Participants in the Summer work on a project alone or in teams. To enter, just s
 If your update falls around one of the meetings of the [SLUG](http://www.meetup.com/swift-language) or any other similar meetup, we encourage you to give your update in person. At the SLUG, we’ll give every participating project a 5-minute lightning talk at every meeting to demo your progress & share what you’ve learned. If you cannot present in person, you can share your progress via a blog, github, twitter, youtube, etc. 
 
 **The contest will run until September 30th.**
-We will conclude with a 2-hour meetup in San Francisco entirely devoted to the participants that toughed it out through the Summer, and will invite the best projects from San Francisco & beyond to show off their apps and summarize all that they have learned about Swift over the Summer. The event will be recorded and shared on YouTube.
+We will conclude with a 2-hour meetup in San Francisco entirely devoted to the participants that toughed it out through the Summer. We expect to be able to fly in the people behind at least one (if not more) of the best projects outside San Francisco. Everybody will show off their apps and summarize all that they’ve learned about Swift over the Summer. The event will be recorded and shared on YouTube.
 
 ### Do I have to be in San Francisco to enter?
 
 No, you can compete from anywhere as long as you send updates to this repo regularly.
-
-If you host a Swift meetup in another city and would like to host regular lightning talks or hacknights for Summer contestants, email tim@realm.io or send a PR to this repo so we can add you to this page.
 
 ### What can I work on?
 
@@ -53,9 +51,9 @@ Yes, you can submit PRs requesting to add yourself to an existing project. We’
 
 ### Can we meet somewhere to work on a project together?
 
-Absolutely. For San Francisco, we’ll organize hacknights devoted to working on these Summer projects, based on demand. If you can host something like this in the Bay area (or elsewhere) on a regular basis please email tim@realm.io.
-
-If you can host similar hacknights somewhere else, email us or send a PR so we can add you to this page.
+Absolutely. Here are the cities that host hacknights for the Summer
+- **San Francisco**, the [SLUG](http://www.meetup.com/swift-language/) will organize hacknights devoted to working on Summer projects. Just join the group to be notified of these events.
+- **_Your city here?_** If you want to host similar hacknights somewhere else, email tim@realm.io or send a PR so we can add you to this page.
 
 ### I have another question — who can I contact?
 
