@@ -66,5 +66,5 @@ Reach out to Arwa \<arwa@realm.io\> and Tim \<tim@realm.io\>
 
 This is the list of all the projects that have been entered. Names that are crossed off missed at least one bi-monthly update.
 
-- [Jazzy](projects/jazzy.md) by @jpsim & @timanglade
-- [Foursquift](projects/foursquift.md) by @roderic
+- [Jazzy](projects/jazzy.md) by [@jpsim](https://github.com/jpsim) & [@timanglade](https://github.com/timanglade)
+- [Foursquift](projects/foursquift.md) by [@rodericj](https://github.com/rodericj)
