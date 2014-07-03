@@ -1,8 +1,7 @@
 Summer of Swift
 ===============
 
-_An Ephemeral Contest to Learn Swift by Doing_
-
+_An Ephemeral Contest to Learn Swift by Doing_ ![analytics](https://ga-beacon.appspot.com/UA-50247013-2/summer-of-swift/README?pixel)
 
 ### What is it?
 
