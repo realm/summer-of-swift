@@ -2,7 +2,7 @@
 
 ## Description
 
-Crump is an arcade game with 80s style play based around OS X, keyboard input, and SpriteKit.  The exact details of the gameplay are still a work in progress but enemy avoidance, constant movement withn a grid, and collection will be its essential elements.
+Crump is an arcade game with 80s style play based around OS X, keyboard input, tmx (Tiled) tile maps, and SpriteKit.  The exact details of the gameplay are still a work in progress but enemy avoidance, constant movement withn a grid, and collection will be its essential elements.
 
 ## Project Location
 
