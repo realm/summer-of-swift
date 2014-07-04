@@ -10,7 +10,7 @@ https://github.com/davecom/Crump
 
 ## Team Members
 
-- David Kopec — @davecom
+- David Kopec — [@davecom](https://github.com/davecom)
 
 ## Updates
 
