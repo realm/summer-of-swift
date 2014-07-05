@@ -35,7 +35,7 @@ https://github.com/practicalswift/Pythonic.swift
 
 ## Team Members
 
-- @practicalswift (https://twitter.com/practicalswift, http://practicalswift.com/)
+- <a href="https://github.com/practicalswift">@practicalswift</a> (https://twitter.com/practicalswift, http://practicalswift.com/)
 
 ## Updates
 
