@@ -8,7 +8,7 @@ I'm going lone-wolf on this one (the way I like it) and I aim to learn a great d
 
 ## Project Location
 
-It will live at https://github.com/kreeger/pinwheel.
+It lives at https://github.com/kreeger/pinwheel. GitHub Pages site is forthcoming, once I get the project far enough along.
 
 ## Team Members
 
