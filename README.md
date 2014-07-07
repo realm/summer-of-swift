@@ -68,9 +68,13 @@ This is the list of all the projects that have been entered. Names that are cros
 - [Nudges](projects/nudges.md) by [@birarda](https://github.com/birarda) & [@problem](https://github.com/problem)
 - [BlueCap](projects/bluecap.md) by [@troystribling](https://github.com/troystribling)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Crump](projects/crump.md) by [@davecom](https://github.com/davecom)
 - [Pinwheel](projects/pinwheel.md) by [@kreeger](https://github.com/kreeger)
 - [StarBridge](projects/starbridge.md) by [@stevethomp](https://github.com/stevethomp)
 =======
 - [Pythonic.swift](projects/Pythonic.swift.md) by [@practicalswift](https://github.com/practicalswift)
 >>>>>>> 76a29b93b05094049b1ee4790078b91d9b37357c
+=======
+- [Boris The Blade](projects/boris-the-blade.md) by [@neonichu](https://github.com/neonichu)
+>>>>>>> f0a0f9072796e8b03e40957290efe4e50150e756
