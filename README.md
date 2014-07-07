@@ -66,4 +66,5 @@ This is the list of all the projects that have been entered. Names that are cros
 - [Jazzy](projects/jazzy.md) by [@jpsim](https://github.com/jpsim) & [@timanglade](https://github.com/timanglade)
 - [Foursquift](projects/foursquift.md) by [@rodericj](https://github.com/rodericj)
 - [Nudges](projects/nudges.md) by [@birarda](https://github.com/birarda) & [@problem](https://github.com/problem)
+- [BlueCap](projects/bluecap.md) by [@troystribling](https://github.com/troystribling)
 - [Crump](projects/crump.md) by [@davecom](https://github.com/davecom)
