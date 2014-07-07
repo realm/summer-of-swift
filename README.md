@@ -69,3 +69,4 @@ This is the list of all the projects that have been entered. Names that are cros
 - [BlueCap](projects/bluecap.md) by [@troystribling](https://github.com/troystribling)
 - [Crump](projects/crump.md) by [@davecom](https://github.com/davecom)
 - [Pinwheel](projects/pinwheel.md) by [@kreeger](https://github.com/kreeger)
+- [StarBridge](projects/starbridge.md) by [@stevethomp](https://github.com/stevethomp)
