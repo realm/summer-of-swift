@@ -73,3 +73,4 @@ This is the list of all the projects that have been entered. Names that are cros
 - [Pythonic.swift](projects/Pythonic.swift.md) by [@practicalswift](https://github.com/practicalswift)
 - [Boris The Blade](projects/boris-the-blade.md) by [@neonichu](https://github.com/neonichu)
 - [Foggy](projects/foggy.md) by [@jsvatek](https://github.com/jsvatek)
+- [GatineauVélo](projects/GatineauVélo.md) by [@philippec](https://github.com/philippec)
