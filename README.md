@@ -74,3 +74,4 @@ This is the list of all the projects that have been entered. Names that are cros
 - [Boris The Blade](projects/boris-the-blade.md) by [@neonichu](https://github.com/neonichu)
 - [Foggy](projects/foggy.md) by [@jsvatek](https://github.com/jsvatek)
 - [GatineauVélo](projects/GatineauVélo.md) by [@philippec](https://github.com/philippec)
+- [Pressure](projects/pressure.md) by [@ricburton](https://github.com/ricburton) & [@samskiter](https://github.com/samskiter)
