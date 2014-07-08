@@ -10,7 +10,8 @@ https://github.com/ricburton/pressure
 
 ## Team Members
 
-- Richard Burton — @ricburton
+- Richard Burton — [@ricburton](https://github.com/ricburton)
+- Sam Duke — [@samskiter](https://github.com/samskiter)
 
 ## Updates
 
