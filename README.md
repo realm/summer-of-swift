@@ -64,7 +64,7 @@ Reach out to Arwa \<arwa@realm.io\> and Tim \<tim@realm.io\>
 This is the list of all the projects that have been entered. Names that are crossed off missed at least one bi-monthly update.
 
 - [Jazzy](projects/jazzy.md) by [@jpsim](https://github.com/jpsim) & [@timanglade](https://github.com/timanglade)
-- [Foursquift](projects/foursquift.md) by [@rodericj](https://github.com/rodericj)
+- [Foursquift](projects/foursquift.md) by [@rodericj](https://github.com/rodericj) & [@krishnan-srinivasan](http://github.com/krishnan-srinivasan)
 - [Nudges](projects/nudges.md) by [@birarda](https://github.com/birarda) & [@problem](https://github.com/problem)
 - [BlueCap](projects/bluecap.md) by [@troystribling](https://github.com/troystribling)
 - [Crump](projects/crump.md) by [@davecom](https://github.com/davecom)
