@@ -13,7 +13,7 @@ Participants in the Summer work on a project alone or in teams. **To enter, subm
 
 **_The only rule of the Summer of Swift is that you must edit your project file at least once every 2 weeks with an update on your progress & what you have learned so far. Projects who fail to do so will be crossed off from the “Big Board”._**
 
-If your update falls around one of the meetings of the [SLUG](http://www.meetup.com/swift-language) or any other similar meetup, we encourage you to give your update in person. At the SLUG, we’ll give every participating project a 5-minute lightning talk at every meeting to demo your progress & share what you’ve learned. If you cannot present in person, you can share your progress via a blog, github, twitter, youtube, etc. 
+If your update falls around one of the meetings of the [SLUG](http://www.meetup.com/swift-language) or any other similar meetup, we encourage you to give your update in person. At the SLUG, we’ll give every participating project a 5-minute lightning talk at every meeting to demo your progress & share what you’ve learned. If you cannot present in person, you can share your progress via a blog, github, twitter, youtube, etc.
 
 **The contest will run until September 30th.**
 We will conclude with a 2-hour meetup in San Francisco entirely devoted to the participants that toughed it out through the Summer. We expect to be able to fly in the people behind at least one (if not more) of the best projects outside San Francisco. Everybody will show off their apps and summarize all that they’ve learned about Swift over the Summer. The event will be recorded and shared on YouTube.
