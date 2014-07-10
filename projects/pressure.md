@@ -19,6 +19,10 @@ https://github.com/ricburton/pressure
 
 ### July 10
 
+I checked out [this](http://stackoverflow.com/questions/24397927/where-to-find-information-on-ios-8-variable-touch-sizing-api) Stack Overflow answer on the touch pressure implementation and started playing around with the code in a Playground. I also mocked up a couple of ideas for how buttons could respond to pressure.
+
+![A couple of button ideas](http://f.cl.ly/items/3p30382b3s3M2c2Y0O0Q/Screen%20Shot%202014-07-10%20at%2011.18.07.png)
+
 ### July 25
 
 ### August 10
