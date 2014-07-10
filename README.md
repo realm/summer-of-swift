@@ -53,6 +53,7 @@ Yes, you can submit PRs requesting to add yourself to an existing project. We’
 
 Absolutely. Here are the cities that host hacknights for the Summer
 - **San Francisco**, the [SLUG](http://www.meetup.com/swift-language/) will organize hacknights devoted to working on Summer projects. Just join the group to be notified of these events.
+- **Uppsala**, the 7th of August at 18:00 a hack night will be held somewhere in the city. Email johannesl@46elks.com for details.
 - **_Your city here?_** If you want to host similar hacknights somewhere else, email tim@realm.io or send a PR so we can add you to this page.
 
 ### I have another question — who can I contact?
@@ -76,3 +77,4 @@ This is the list of all the projects that have been entered. Names that are cros
 - [GatineauVélo](projects/GatineauVélo.md) by [@philippec](https://github.com/philippec)
 - [Pressure](projects/pressure.md) by [@ricburton](https://github.com/ricburton) & [@samskiter](https://github.com/samskiter)
 - [Krate - Create and Destroy](projects/krate.md) by [@stephenhaney](https://github.com/stephenhaney)
+- [ElksInbox](projects/ElksInbox.md) by [@johannesl](https://github.com/johannesl)
