@@ -30,3 +30,8 @@ https://github.com/troystribling/BlueCap
 - Peripheral Connectorator completed
 - Service Discovery completed.
 - Characteristic Discovery completed.
+
+### July 10
+
+- Serialization/Deserialization and Endianness conversion interfaces completed with implementations for Enums and Ints.
+- Characteristic profiles for Enums and Ints completed.
