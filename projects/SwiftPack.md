@@ -14,8 +14,9 @@ https://github.com/briandw/SwiftPack
 
 ## Updates
 
-### July 10
+### July 12
 Added the first version of the packer (the unpacker was already done)
+
 ### July 25
 
 ### August 10
