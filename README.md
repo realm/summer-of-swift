@@ -95,3 +95,4 @@ This is the list of all the projects that have been entered. Names that are cros
 - [SwiftPack](projects/SwiftPack.md) by [@bdennyw](https://github.com/briandw)
 - [VDOTRunner](projects/VDOTRunner.md) by [@superdupertango](https://github.com/SuperTango)
 - [SwiftThrift](projects/SwiftThrift.md) by [@klazuka](https://github.com/klazuka)
+- Analog Alarm by [@davidkobilnyk](https://github.com/davidkobilnyk)
