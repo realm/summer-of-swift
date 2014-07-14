@@ -36,7 +36,7 @@ https://github.com/BradHammond/PomodoroApplication
 
 ## Team Members
 
-- <first team member name> — <@BradHammond>
+Brad Hammond - @BradHammond, www.hammondbrad.com
 
 
 ## Updates
