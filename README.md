@@ -81,3 +81,4 @@ This is the list of all the projects that have been entered. Names that are cros
 - [ElksInbox](projects/ElksInbox.md) by [@johannesl](https://github.com/johannesl)
 - [Lo1Reader](projects/Lo1Reader.md) by [@ebierman](https://github.com/ebierman)
 - [The Oakland Post](projects/The%20Oakland%20Post.md) by [@aclissold](https://github.com/aclissold)
+- [Give and Take](/projects/GiveAndTake.md) by [@roop](https://github.com/roop)
