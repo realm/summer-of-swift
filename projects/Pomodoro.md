@@ -21,7 +21,8 @@ Trends - Trends will display the users overall work habits.  Trends displayed wi
 - How often the user is using the application
 - How often the user is meeting daily and weekly work goals
 
-Settings - Settings will present the user will a number of settings, customizations and other preferences that tailor the user experience to best fit each individual user.  Settings options will include things such as:u
+Settings - Settings will present the user will a number of settings, customizations and other preferences that tailor the user experience to best fit each individual user.  Settings options will include things such as:
+
 - Specified time interval
 - Daily Goal (min worked)
 - Weekly Goal (hours worked)
