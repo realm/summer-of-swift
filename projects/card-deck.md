@@ -6,11 +6,11 @@ Card Deck is a deck of cards for your iPhone.
 
 ## Project Location
 
-carddeck.co
+[carddeck.co](http://carddeck.co/)
 
 ## Team Members
 
-Zane Shannon -- zshannon -- @zaneshannon
+- Zane Shannon -- zshannon -- @zaneshannon
 
 
 ## Updates
