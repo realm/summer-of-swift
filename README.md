@@ -85,3 +85,4 @@ This is the list of all the projects that have been entered. Names that are cros
 - [SwiftMesh](projects/swiftmesh.md) by [@porumbes](https://github.com/porumbes)
 - [Card Deck](projects/card-deck.md) by [@zshannon](https://github.com/zshannon)
 - [The News (iPad)](projects/thenews-ipad.md) by [@tosinaf](https://github.com/tosinaf)
+- [Bapit](projects/Bapit.md) by [@hswolff](https://github.com/hswolff)
