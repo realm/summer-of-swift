@@ -93,3 +93,4 @@ This is the list of all the projects that have been entered. Names that are cros
 - [HockeyTweet](https://github.com/mthistle/HockeyTweetSwift) by [@mthistle](https://github.com/mthistle)
 - [The Yucatan Trail](projects/yucatan.md) by [@pshc](https://github.com/pshc)
 - [SwiftPack](projects/SwiftPack.md) by [@bdennyw](https://github.com/briandw)
+- [VDOTRunner](projects/VDOTRunner.md) by [@superdupertango](https://github.com/SuperTango)
