@@ -91,3 +91,4 @@ This is the list of all the projects that have been entered. Names that are cros
 - [Give and Take](/projects/GiveAndTake.md) by [@roop](https://github.com/roop)
 - [HockeyTweet](https://github.com/mthistle/HockeyTweetSwift) by [@mthistle](https://github.com/mthistle)
 - [The Yucatan Trail](projects/yucatan.md) by [@pshc](https://github.com/pshc)
+- [SwiftPack](projects/SwiftPack.md) by [@bdennyw](https://github.com/briandw)
