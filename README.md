@@ -94,3 +94,4 @@ This is the list of all the projects that have been entered. Names that are cros
 - [The Yucatan Trail](projects/yucatan.md) by [@pshc](https://github.com/pshc)
 - [SwiftPack](projects/SwiftPack.md) by [@bdennyw](https://github.com/briandw)
 - [VDOTRunner](projects/VDOTRunner.md) by [@superdupertango](https://github.com/SuperTango)
+- [SwiftThrift](projects/SwiftThrift.md) by [@klazuka](https://github.com/klazuka)
