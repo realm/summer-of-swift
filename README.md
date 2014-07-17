@@ -87,3 +87,4 @@ This is the list of all the projects that have been entered. Names that are cros
 - [The News (iPad)](projects/thenews-ipad.md) by [@tosinaf](https://github.com/tosinaf)
 - [Bapit](projects/Bapit.md) by [@hswolff](https://github.com/hswolff)
 - [Super To-Do](projects/super-to-do.md) by [@benghamine](https://github.com/dunphyben)
+- [Pomodoro](projects/Pomodoro.md) by [@BradHammond](https://github.com/BradHammond)
