@@ -84,3 +84,4 @@ This is the list of all the projects that have been entered. Names that are cros
 - [The Oakland Post](projects/The%20Oakland%20Post.md) by [@aclissold](https://github.com/aclissold)
 - [SwiftMesh](projects/swiftmesh.md) by [@porumbes](https://github.com/porumbes)
 - [Card Deck](projects/card-deck.md) by [@zshannon](https://github.com/zshannon)
+- [The News (iPad)](projects/thenews-ipad.md) by [@tosinaf](https://github.com/tosinaf)
