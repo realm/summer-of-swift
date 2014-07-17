@@ -79,6 +79,7 @@ This is the list of all the projects that have been entered. Names that are cros
 - [Pressure](projects/pressure.md) by [@ricburton](https://github.com/ricburton) & [@samskiter](https://github.com/samskiter)
 - [Krate - Create and Destroy](projects/krate.md) by [@stephenhaney](https://github.com/stephenhaney)
 - [ElksInbox](projects/ElksInbox.md) by [@johannesl](https://github.com/johannesl)
+- [HausClock](projects/HausClock.md) by [@nottombrown](https://github.com/nottombrown)
 - [Lo1Reader](projects/Lo1Reader.md) by [@ebierman](https://github.com/ebierman)
 - [SwifterTracker](projects/SwifterTracker.md) by [@xke](https://github.com/xke)
 - [The Oakland Post](projects/The%20Oakland%20Post.md) by [@aclissold](https://github.com/aclissold)
