@@ -82,3 +82,4 @@ This is the list of all the projects that have been entered. Names that are cros
 - [Lo1Reader](projects/Lo1Reader.md) by [@ebierman](https://github.com/ebierman)
 - [SwifterTracker](projects/SwifterTracker.md) by [@xke](https://github.com/xke)
 - [The Oakland Post](projects/The%20Oakland%20Post.md) by [@aclissold](https://github.com/aclissold)
+- [Card Deck](projects/card-deck.md) by [@zshannon](https://github.com/zshannon)
