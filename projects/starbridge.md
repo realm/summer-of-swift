@@ -20,7 +20,10 @@ Name is currently under construction.
 ## Updates
 
 
-### July 10
+### July 15
+I added basic Multipeer (Thanks JP and MPCMultipeerClient) and am working on getting basic notifications and communication between the different devices working. I'm also trying to decide on final game design, with a focus on how a game will work and what each station will be doing.
+
+The name is still terrible and in progress.
 
 ### July 25
 
