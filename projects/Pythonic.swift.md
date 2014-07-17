@@ -41,6 +41,30 @@ https://github.com/practicalswift/Pythonic.swift
 
 ### July 10
 
+Continued implementing functions from the Python standard library in Swift.
+
+Posted a "Show HN" on the project which reached the first page of HN for a couple of hours (https://news.ycombinator.com/item?id=8001245).
+
+Learned about the smart `GeneratorOf<T>` class, which allows for easy creation of generators which are needed when implementing the `Sequence` protocol.
+
+A Sequence allows for the `for x in [sequence]` in Swift. This is an example of a `generate()` function using `GeneratorOf<T>`.
+
+```
+    func generate() -> GeneratorOf<String> {
+        var i = 0
+        var lines = self.readLines().map { $0 + "\n" }
+        return GeneratorOf<String> {
+            if i >= len(lines) {
+                return .None
+            } else {
+                return lines[i++]
+            }
+        }
+    }
+```
+
+Call for contributors: Please join me in implementing the Python standard library in Swift. It is really fun, and you'll learn a lot about Swift during the process! :-)
+
 ### July 25
 
 ### August 10
