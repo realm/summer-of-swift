@@ -6,7 +6,7 @@ Haneke is a lightweight zero-config image cache for iOS. This a port from Object
 
 ## Project Location
 
-<https://github.com/hpique/Haneke>
+<https://github.com/hpique/HanekeSwift>
 
 ## Team Members
 

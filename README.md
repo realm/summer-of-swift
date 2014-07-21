@@ -95,4 +95,4 @@ This is the list of all the projects that have been entered. Names that are cros
 - [SwiftPack](projects/SwiftPack.md) by [@bdennyw](https://github.com/briandw)
 - [VDOTRunner](projects/VDOTRunner.md) by [@superdupertango](https://github.com/SuperTango)
 - [SwiftThrift](projects/SwiftThrift.md) by [@klazuka](https://github.com/klazuka)
-- [Haneke](projects/haneke.md) by [@hpique](https://github.com/hpique), [@lascorbe](https://github.com/lascorbe), [@joanromano](https://github.com/joanromano) & [@oriolblanc](https://github.com/oriolblanc)
+- [HanekeSwift](projects/HanekeSwift.md) by [@hpique](https://github.com/hpique), [@lascorbe](https://github.com/lascorbe), [@joanromano](https://github.com/joanromano) & [@oriolblanc](https://github.com/oriolblanc)
