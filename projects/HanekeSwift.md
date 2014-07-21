@@ -2,7 +2,7 @@
 
 ## Description
 
-Haneke is a lightweight zero-config image cache for iOS. This a port from Objective-C to swift.
+Haneke is a lightweight zero-config image cache for iOS. This a port from Objective-C to Swift.
 
 ## Project Location
 
