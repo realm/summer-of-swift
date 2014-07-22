@@ -24,3 +24,10 @@ https://github.com/nottombrown/HausClock
 - Initialized git repo
 - Wrote [blog post on optionals](http://www.nottombrown.com/blog/2014/07/12/swift-for-rubyists-optionals/)
 - ENTERED THIS CONTEST!!!
+
+### July 17
+
+- App compiles and displays basic clock
+- App counts down correctly
+
+### July 24
