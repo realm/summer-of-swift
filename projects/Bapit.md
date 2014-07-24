@@ -16,9 +16,17 @@ https://github.com/hswolff/Bapit
 
 (The dates below are the minimal dates suggested. Please feel free to update earlier & more often!)
 
-### July 10
-
 ### July 25
+
+The project has begun!
+
+I've created the initial game scaffold using Xcode's new Sprite Kit project layout.
+
+Basic gameplay is functional.  You can tap only on the ball to cause it to move upwards in the scene.
+
+We're also calculating where inside the ball you touched and using that when calculating the impulse vector to apply to the ball.
+
+Also moving away from the .sks file and towards pure code implemenation of the game.
 
 ### August 10
 
