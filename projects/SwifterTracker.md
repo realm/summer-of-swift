@@ -12,10 +12,9 @@ Catch up on Taylor Swift music videos while driving! (But you might want to keep
 
 https://github.com/xke/SwifterTracker
 
-## Team Members
+## Author
 
-- @xke
-
+@xke
 
 ## Updates
 
