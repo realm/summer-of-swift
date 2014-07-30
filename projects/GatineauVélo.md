@@ -29,6 +29,11 @@ I'd like to rewrite it in Swift to compare and contrast, as the original was bui
 
 ### July 25
 
+* Took a different approach to the migration: trying one class at a time, with a hybrid ObjC-Swift project
+* Successfully replaced an Objective-C class with an equivalent Swift class and it works!
+* The unit test class, however, was not able to see the new Swift class because the Unit Test target lacked the generated header
+* Filed rdar://problem/17851745 to address this issue
+
 ### August 10
 
 ### August 25
