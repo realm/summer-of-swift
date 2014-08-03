@@ -97,3 +97,4 @@ This is the list of all the projects that have been entered. Names that are cros
 - [SwiftThrift](projects/SwiftThrift.md) by [@klazuka](https://github.com/klazuka)
 - [MotionAlarm](projects/motionAlarm.md) by [@yoshyosh](https://github.com/yoshyosh) & [@benmorrow](https://github.com/benmorrow)
 - [Analog Alarm](projects/analogAlarm.md) by [@davidkobilnyk](https://github.com/davidkobilnyk)
+- [HanekeSwift](projects/HanekeSwift.md) by [@hpique](https://github.com/hpique), [@lascorbe](https://github.com/lascorbe), [@joanromano](https://github.com/joanromano) & [@oriolblanc](https://github.com/oriolblanc)
