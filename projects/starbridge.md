@@ -25,7 +25,14 @@ I added basic Multipeer (Thanks JP and MPCMultipeerClient) and am working on get
 
 The name is still terrible and in progress.
 
-### July 25
+### July 29
+I have basic airplay working, and a rough idea of what each station will do. I wasn't able to make much progress but have some simple frameworks and foundations laid out.
+
+Next steps:
+- Get multipeer running and passing events
+- Get logic working in GameManager to deal with events, and pass them to appropriate devices
+- Implement four stations with simple gameplay
+- Add enemy ships and 'adventure' mode
 
 ### August 10
 

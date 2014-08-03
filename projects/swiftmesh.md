@@ -16,9 +16,11 @@ https://github.com/porumbes/swiftmesh
 
 (The dates below are the minimal dates suggested. Please feel free to update earlier & more often!)
 
-### July 10
-
 ### July 25
+
+* Worked through "A Swift Tour" and general reading of _The Swift Programming Language_
+* Started designing SwiftMesh components based on OpenMesh
+* Review of generative programming techniques
 
 ### August 10
 

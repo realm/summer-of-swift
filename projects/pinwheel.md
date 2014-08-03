@@ -60,6 +60,151 @@ I'm working around the Keychain altogether for now and I'm starting to get a log
 
 ### July 25
 
+Most of my efforts lately have focused around JSON parsing and exploring how Swift's enums work. Here's my blog post on the subject.
+
+---
+
+In my recent work on [Pinwheel](https://github.com/kreeger/pinwheel) whenever I have the time (heh), I've gotten used to some of the more interesting behaviors and idioms of Swift. While I still seem to have [issues accessing the keychain](/swift-related-keychain-woes) in a sane manner, I finally experienced somewhat of a "eureka" moment when trying to parse a JSON response from the Pinboard API, but not after some frustration and face-palming.
+
+I stubled upon [SwiftyJSON][gh-repo] after looking at a [series of][blog1] [blog posts][blog2] by David Owens II (as I assume many Swift early explorers have), and cracked open [the main source file][swifty] and my brain proceeded to melt. *None of it made much sense to me*, and I quickly realized that it's because the `JSONValue` class was implemented as an `enum` type. I'm familiar with enum types in other languages, especially Objective-C, so when I saw all this other extra stuff sprinkled in (including *methods*? *calculated properties*? *switch statements*? *what*?), I couldn't tell if I was looking at a `class` or something else.
+
+Determined to figure this thing out (since obviously other people have as well), I turned to Apple's rather thorough [documentation on Swift enumerations][enum-doc], and after multiple read-throughs, I picked out a couple of sections that were extremely relevant to understanding the code at hand:
+
+- [Matching Enumeration Values with a Switch Statement][enum-doc1]
+- [Associated Values][enum-doc2]
+
+These two features combined make Swift `enums` somewhat of a force to be reckoned with. I'm still getting a handle on just what exactly these are fully capable of (hint: a lot), but with those concepts combined, a class like SwiftyJSON's `JSONValue` are possible, and here's how.
+
+## Enum initialization
+
+You can create an initializer on your custom enum. Note that there isn't one provided for you by default, but when you do add one, you'll need to make sure that by the time you `return self` from the function that you've assigned one of the `enum` cases to `self`. This is how SwiftyJSON embraces this capability (reformatted for brevity; [see the full source][sj-init]), in two phases (the first utilizes the second).
+
+``` swift
+init (_ data: NSData!) {
+    if let value = data {
+        var error: NSError? = nil
+        if let jsonObject: AnyObject = NSJSONSerialization.JSONObjectWithData(data, options: nil, error: &error) {
+            self = JSONValue(jsonObject)
+        } else {
+            self = JSONValue.JInvalid(jsonError)
+        }
+    } else {
+        self = JSONValue.JInvalid(dataError)
+    }
+}
+```
+
+If de-serialization fails for whatever reason, there's a `JInvalid` case that serves as an error state for the enumeration, to ensure there's still a state assigned to `self` by the time the initializer finishes. If data de-serialization succeeds, then the resulting `NSDictionary` is passed to the *other* initializer, which is shown below. Note that this example is also truncated for brevity, so please [look at the full source][sj-init1] for a better picture.
+
+``` swift
+init (_ rawObject: AnyObject) {
+    switch rawObject {
+    case let value as NSNumber:
+        if String.fromCString(value.objCType) == "c" {
+            self = .JBool(value.boolValue)
+            return
+        }
+        self = .JNumber(value)
+    case let value as NSString:
+        self = .JString(value)
+    case let value as NSNull:
+        self = .JNull
+    // So on and so forth, for arrays, dictionaries, etc.
+}
+```
+
+Each of these cases work as a type check, and if one succeeds, the "type case" (either `JBool`, `JString`, `JArray`, etc.) is assigned to self, and the actual typed data is assigned to the instance/case of the enum as an "associated value."
+
+## Associated value handling
+
+Each of these "type cases" are defined at [the top of the class][sj-cases].
+
+``` swift
+case JNumber(NSNumber)
+case JString(String)
+case JBool(Bool)
+case JNull
+case JArray(Array<JSONValue>)
+case JObject(Dictionary<String,JSONValue>)
+case JInvalid(NSError)
+```
+
+Depending on the case chosen in the initializer, the instance of the enum gets handed the value of the specific type. Note that `JNumber` gets handed an `NSNumber`, because this more generic number class handles both `Int` and `Double` number types; those are pulled out of the enumeration below. Take a look at [the property accessor for the `integer` property][sj-property]:
+
+``` swift
+var integer: Int? {
+    switch self {
+    case .JBool(let value):
+        return Int(value)
+    case .JNumber(let value):
+        return value.integerValue
+    case .JString(let value):
+        return (value as NSString).integerValue
+    default:
+        return nil
+    }
+}
+```
+
+This funky syntax is what initially threw me for a loop. `case .JBool(let value)`? What's the `let value` doing in *there*? [Apple's documentation on Associated Values][enum-doc2] explains this part.
+
+> ...The associated values can be extracted as part of the switch statement. You extract each associated value as a constant (with the let prefix) or a variable (with the var prefix) for use within the switch case’s body.
+
+The switch statement in Swift is defined in such a way that we can *check the associated value* by assigning to it in a syntax that *looks* as if you're "reverse assigning" the case, or something.
+
+## Putting it all together
+
+So using the recursive initializer that assigns itself cases based on type, plus assigning associated values to each instance of the enum, provides a pretty powerful way to turn a big JSON object into a easily-useable "object-like" object. Here's how I'm using it in a part of [Pinwheel][pw-link].
+
+``` swift
+var parsed = [PinboardPost]()
+for post in result["posts"].array! {
+    parsed.append(PinboardPost(responseDict: post))
+}
+```
+
+It's pretty easy to turn my `result` instance, which is a `JSONValue`-wrapped object, into a powerful, traversable object. Then I can pluck out values relatively easily in my object initializer as well.
+
+``` swift
+class PinboardPost {
+    let title: String
+    var extendedDescription: String?
+    let hash: String
+    let href: NSURL
+    // ...
+    
+    init(responseDict: JSONValue) {
+        self.title = responseDict["description"].string!
+        self.extendedDescription = responseDict["extended"].string
+        self.hash = responseDict["hash"].string!
+        self.href = responseDict["href"].url!
+        // ...
+    }
+}
+```
+
+Big thanks go to [Ruoyu Fu][lingoer] and his [SwiftyJSON][gh-repo] library; it's been a tremendous help in learning and utilizing Swift!
+
+[blog1]:     https://medium.com/swift-programming/b6f4f232e35e
+[blog2]:     https://medium.com/swift-programming/swift-json-parsing-716ea9be1c5b
+[swifty]:     https://github.com/lingoer/SwiftyJSON/blob/master/SwiftyJSON/SwiftyJSON.swift
+[gh-repo]:     https://github.com/lingoer/SwiftyJSON
+[enum-doc]:     https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html
+[enum-doc1]:     https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html#//apple_ref/doc/uid/TP40014097-CH12-XID_186
+[enum-doc2]:     https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html#//apple_ref/doc/uid/TP40014097-CH12-XID_187
+[sj-init]:     https://github.com/lingoer/SwiftyJSON/blob/85703f67fa39730dceae2a1c7813242ee5a8269c/SwiftyJSON/SwiftyJSON.swift#L142
+[sj-init1]:     https://github.com/lingoer/SwiftyJSON/blob/85703f67fa39730dceae2a1c7813242ee5a8269c/SwiftyJSON/SwiftyJSON.swift#L156
+[sj-cases]:     https://github.com/lingoer/SwiftyJSON/blob/85703f67fa39730dceae2a1c7813242ee5a8269c/SwiftyJSON/SwiftyJSON.swift#L29
+[sj-property]:    https://github.com/lingoer/SwiftyJSON/blob/85703f67fa39730dceae2a1c7813242ee5a8269c/SwiftyJSON/SwiftyJSON.swift#L74
+[pw-link]:    https://github.com/kreeger/pinwheel
+[lingoer]:    https://github.com/lingoer
+
+---
+
+Now it's back to work on more API components. Progress was slow this last week but I aim to pick things up again at a better pace next week.
+
+---
+
 ### August 10
 
 ### August 25

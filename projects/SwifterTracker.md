@@ -10,12 +10,11 @@ Catch up on Taylor Swift music videos while driving! (But you might want to keep
 
 ## Project Location
 
-TBD
+https://github.com/xke/SwifterTracker
 
-## Team Members
+## Author
 
-- @xke
-
+@xke
 
 ## Updates
 
@@ -23,6 +22,7 @@ TBD
 
 
 ### July 25
+initial creation of a few template filez
 
 ### August 10
 

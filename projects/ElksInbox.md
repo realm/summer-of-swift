@@ -22,7 +22,9 @@ Development is done in Uppsala, Sweden.
 
 I'm roughly setting up the project repo and figuring out how to best commit a Swift project to github without bloat.
 
-### July 25
+### July 28
+
+Added layout mockup both as a screenshot and in Balsamiq Mockups BMML format.
 
 ### August 10
 
