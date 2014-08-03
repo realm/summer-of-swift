@@ -49,6 +49,8 @@ Project was setup, Github repository was created and empty project was pushed to
 
 ### July 25
 
+During the past 2 weeks or so, I have continued studying Swift via reading Apples iBook and playing around with code in playgrounds.  I have setup the basic layout of the Pomodoro Application (3 tab views) but have not yet added any code.  In an effort to make this project more public, I have written a first blog post detailing the project on my website.  This can be viewed at www.hammondbrad.com/blog
+
 ### August 10
 
 ### August 25
