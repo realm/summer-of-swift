@@ -53,7 +53,7 @@ Yes, you can submit PRs requesting to add yourself to an existing project. We’
 
 Absolutely. Here are the cities that host hacknights for the Summer
 - **San Francisco**, the [SLUG](http://www.meetup.com/swift-language/) will organize hacknights devoted to working on Summer projects. Just join the group to be notified of these events.
-- **Ottawa**, Come out to the SLUG-O Hacknights! We’re planning to meet every second Tuesday at 7pm at the Bridgehead at Richmond and Golden. (Depending on the turnout we may revisit the venue.) We thought we’d hold the first one next week – also conveniently July 15th. Keep coming every two weeks and you’ll be sure to keep posting updates on your project. Email svatek@gmail.com for details.
+- **Ottawa**, Come out to the [SLUGGO](http://www.sluggo.org/) Hacknights! We’re planning to meet every second Tuesday at 7pm at the Bridgehead at Richmond and Golden. (Depending on the turnout we may revisit the venue.) We thought we’d hold the first one next week – also conveniently July 15th. Keep coming every two weeks and you’ll be sure to keep posting updates on your project. Email svatek@gmail.com for details.
 - **Uppsala**, the 7th of August at 18:00 a hack night will be held somewhere in the city. Email johannesl@46elks.com for details.
 - **_Your city here?_** If you want to host similar hacknights somewhere else, email tim@realm.io or send a PR so we can add you to this page.
 
