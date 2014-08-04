@@ -30,7 +30,11 @@ I'm looking for a good Cocoa control to use for user keyboard preferences (mappi
 
 I need to create/find some better public domain art (sprite sheets really for Tiled) and start working on some enemies/goals/things to pick up for points. I have some basic ideas in my mind but I need to put them to paper.
 
-### August 10
+### August 4
+
+I added some basic AI and hooks for more AI.  I had to slightly refactor some of the code.  The smart bit was putting the player movement code at the base of a class hiearchy that incorporates the AI characters (all of that decision point stuff is applicable to everything that moves in the game).
+
+I'm going to spend some time working on the art and future AI characters.
 
 ### August 25
 
