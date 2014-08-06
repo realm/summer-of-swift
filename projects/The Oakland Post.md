@@ -23,8 +23,8 @@ Open-sourced the project and added screenshots!
 ### July 25
 
 A grand total of
-[41 commits](https://github.com/aclissold/The-Oakland-Post/commits/master) and
-[19 closed issues](https://github.com/aclissold/The-Oakland-Post/issues?state=closed)
+[41 commits](https://github.com/aclissold/The-Oakland-Post/commits/3bddf0ff25c6d1f3d8ba01e8439f4088960fb103) and
+[19 closed issues](https://github.com/aclissold/The-Oakland-Post/issues?q=closed%3A%3C2014-07-25)
 since the 10th.
 
 The majority of what I've been working on these past couple weeks has been this
@@ -112,6 +112,30 @@ solution to this, please let me know! I found that the analogous method in
 `WKWebView` lets you pass a callback block (exactly what I want), but I'm targeting iOS 7+.
 
 ### August 10
+
+I'm headed off to Europe tomorrow so I'm submitting this early but counting it
+as an August 10th update!
+
+There are
+[25 new commits](https://github.com/aclissold/The-Oakland-Post/commits/5cba8530c00c4d9023634a834abd17c069949e8c) and
+[5 closed issues](https://github.com/aclissold/The-Oakland-Post/issues?q=closed%3A2014-07-25..2014-08-05)
+since last time.
+
+The vast majority of this work went towards whipping the Photos view into shape:
+
+![Screenshot 2](https://raw.githubusercontent.com/aclissold/The-Oakland-Post/5cba8530c00c4d9023634a834abd17c069949e8c/The%20Oakland%20Post/Screenshots/Screenshot%202.png)
+
+You can now tap any image in the collection view and a full-screen version will
+fade in. A progress circle is displayed as
+[XPaths](http://en.wikipedia.org/wiki/XPath) and the
+[Open Graph protocol](http://ogp.me/) are used find to download a
+high-res version of the image from the server, which is then seamlessly swapped
+out with the lower-res version, even when you navigate back to the collection
+view. The
+[`EnlargedPhoto`](https://github.com/aclissold/The-Oakland-Post/blob/5cba8530c00c4d9023634a834abd17c069949e8c/The%20Oakland%20Post/EnlargedPhoto.swift)
+can be dismissed with a swipe or single tap, and zoomed with a pinch or double
+tap. And each image now provides a link to view the associated news post, which
+gets presented modally.
 
 ### August 25
 
