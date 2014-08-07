@@ -21,14 +21,14 @@ In order to learn about Swift and new iOS 8 APIs, we're going to re-write Nudges
 
 (The dates below are the minimal dates suggested. Please feel free to update earlier & more often!)
 
-### July 10
-
-### July 25
-
 ### August 10
 
-### August 25
+Finally got started this week!
 
-### September 10
-
-### September 25
+* Discussed featureset for 1.0 release
+  * Updated interface
+  * Recurring Nudges
+  * Nudge me again (snooze)
+* @problem familiarized himself with PaintCode
+* @birarda familiarized himself with Swift and iOS 8 adaptive layouts
+* Created base of first view controller (top time bar with updating time)
