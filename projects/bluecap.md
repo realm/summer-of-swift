@@ -40,7 +40,7 @@ https://github.com/troystribling/BlueCap
 - Characteristic read and write completed.
 - Characteristic notifications completed.
 
-## August 7
+### August 7
 - Completed TI Sensor Tag Service Profile implementations and other examples.
 - Completed struct, pair struct and String Characteristic Profile types.
 - Completed Characteristic Profile browser.
