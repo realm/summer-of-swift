@@ -21,9 +21,42 @@ Haneke is a lightweight zero-config image cache for iOS. This a port from Object
 
 First approach of the specifications on what the finished project must look like.
 
-### July 25
-
 ### August 10
+
+Getting a hang of the language and unit testing. 
+
+The XCTest Swift API has improved greatly from Beta 1 to Beta 5. The XCTAssert macros were pratically unusable in Beta 1.
+
+A couple techniques that we found interesting:
+
+##### Testing deinit
+
+    func testDeinit() {
+        weak var sut = Something()
+    }
+    
+##### Verifying that a function gets called
+
+    func testUIApplicationDidReceiveMemoryWarningNotification() {
+        let expectation = expectationWithDescription("onMemoryWarning")
+        
+        class MemoryCacheMock : MemoryCache {
+            
+            var expectation : XCTestExpectation?
+            
+            override func onMemoryWarning() {
+                super.onMemoryWarning()
+                expectation!.fulfill()
+            }
+        }
+        
+        let sut = MemoryCacheMock("test")
+        sut.expectation = expectation // XCode crashes if we use the original expectation directly
+        
+        NSNotificationCenter.defaultCenter().postNotificationName(UIApplicationDidReceiveMemoryWarningNotification, object: nil)
+        
+        waitForExpectationsWithTimeout(0, nil)
+    }
 
 ### August 25
 
