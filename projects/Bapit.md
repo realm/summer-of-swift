@@ -30,6 +30,49 @@ Also moving away from the .sks file and towards pure code implemenation of the g
 
 ### August 10
 
+This creates my first enum and struct.
+
+The enum is for PhysicsBody category and collision bit mask, to allow
+me to handle contacts between two physics bodies correctly.
+
+The struct is to create a data type for storing the amount of taps
+that someone correctly tapped the ball, and someone missed it in case
+I'd want to use that information.
+
+Also moved to instantiating each property in the initializer function init().
+
+Also sped up the game to make it be a little more challenging.
+
+Created the bottomBorder to know when the ball drops to the bottom.
+
+Created scoreLabel to show the current score of the game.
+
+Used the willSet observer to get notified when the TapCount struct is
+modified so we can then update the scoreLabel correctly.
+
+Add an extension to GameScene so we can become a contactDelegate
+and handle all contact instances.
+
+Abstract the setting up of the game kit view and initial scene
+so it's the same no matter how the game is created.
+
+Add ability to save the high score for that session of the game.
+
+Still using observing functions to make for easy binding and updating
+of the view.
+
+Created GameOverScene to present once the ball hits the bottom of the screen.
+
+Using SKTransition when presenting each scene for an added touch of life.
+
+Added a 'tap to start label' so that the game only starts once the player
+is ready.  I'm controlling this behavior by changing the dynamic property
+of the ball's physicsBody.
+
+**Sidenote**:  I'm really enjoying Swift's willSet/didSet property observer methods
+on properties.  Really makes databinding really easy and lightweight to use.  Big
+props to Apple for that.
+
 ### August 25
 
 ### September 10
