@@ -207,6 +207,45 @@ Now it's back to work on more API components. Progress was slow this last week b
 
 ### August 10
 
+In getting to crack Pinwheel open again, naturally everything's all kinds of broken again. Evidently the few changes I had to make include...
+
+- Swapping out some of my useages of `+=` with `.append()` instead
+- Adding `required init(code aDecoder: NSCoder) {}` initializers to my UIView(Controller) subclasses
+- Evaluating `<bool-name> != nil` instead of just `<bool-name>` in a few places
+
+As far as the "state of the union as I see it," Swift is still incredibly frustrating to work with under Xcode (the latest beta being Xcode 6 Beta 5) due to the SourceKitService dying out constantly. Smart highlighting and code suggestions still just go *right* out the window. The way I see it? September's right around the corner. I really hope they can get these bugs ironed out before then, because I would like to start using Swift in a professional capacity instead of just on personal projects. Until the Xcode/SourceKit bugs are fixed, I can't see myself doing that.
+
+In either case, I had some Pinboard API authentication issues, and they were caused by some errant Swift code that tried to modify an incoming variable. It *used* to work, and I was pretty dubious then about whether it would continue to work as Apple refined the Swift compiler. Turns out I was right.
+
+For a positive spin on things, Xcode finally supports grepping for `// MARK` and `// TODO` so that they'll show up in the symbol navigator. I'm using them now in the code for my Pinboard API client (where I'm utilizing extensions to separate post retrieval vs other calls).
+
+![Symbol Navigator](http://f.kree.gr/blog/2014/symbol-menu.png)
+
+In addition to these, I also get pretty nerdy about docstrings. I like to include them wherever possible. In previous betas, Xcode's built-in parsing was much like pulling teeth, but since Beta 5 came out, support for these is better than ever (and a tip of the hat to [NSHipster's post on the subject a couple of weeks ago](http://nshipster.com/swift-documentation/), which even sheds light on a rudimentary reStructuredText parser built into SourceKit).
+
+```swift
+// MARK: User authentication
+extension PinboardClient {
+    /**
+    Trades a username and password for a login token, which is assigned to this adapter's
+    credentials property.
+    
+    See https://pinboard.in/api#user_api_token
+    
+    :param: username The username to deliver to Pinboard's API.
+    :param: password The password to deliver to Pinboard's API; is never stored.
+    :param: completion A block to be called upon completion.
+    */
+    func login(#username: String, password: String, completion: ((PinboardCredentials?, NSError?) -> Void)) {
+        // ...
+    }
+}
+```
+
+![Parsed Comments](http://f.kree.gr/blog/2014/parsed-comments.png)
+
+Apart from these discoveries and minor frustrations, I'm still plugging away (slowly) at Pinwheel. Eventually a basic version will see the light of day!
+
 ### August 25
 
 ### September 10
