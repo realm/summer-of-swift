@@ -75,7 +75,7 @@ Determined to figure this thing out (since obviously other people have as well),
 
 These two features combined make Swift `enums` somewhat of a force to be reckoned with. I'm still getting a handle on just what exactly these are fully capable of (hint: a lot), but with those concepts combined, a class like SwiftyJSON's `JSONValue` are possible, and here's how.
 
-## Enum initialization
+#### Enum initialization
 
 You can create an initializer on your custom enum. Note that there isn't one provided for you by default, but when you do add one, you'll need to make sure that by the time you `return self` from the function that you've assigned one of the `enum` cases to `self`. This is how SwiftyJSON embraces this capability (reformatted for brevity; [see the full source][sj-init]), in two phases (the first utilizes the second).
 
@@ -115,7 +115,7 @@ init (_ rawObject: AnyObject) {
 
 Each of these cases work as a type check, and if one succeeds, the "type case" (either `JBool`, `JString`, `JArray`, etc.) is assigned to self, and the actual typed data is assigned to the instance/case of the enum as an "associated value."
 
-## Associated value handling
+#### Associated value handling
 
 Each of these "type cases" are defined at [the top of the class][sj-cases].
 
@@ -152,7 +152,7 @@ This funky syntax is what initially threw me for a loop. `case .JBool(let value)
 
 The switch statement in Swift is defined in such a way that we can *check the associated value* by assigning to it in a syntax that *looks* as if you're "reverse assigning" the case, or something.
 
-## Putting it all together
+#### Putting it all together
 
 So using the recursive initializer that assigns itself cases based on type, plus assigning associated values to each instance of the enum, provides a pretty powerful way to turn a big JSON object into a easily-useable "object-like" object. Here's how I'm using it in a part of [Pinwheel][pw-link].
 
