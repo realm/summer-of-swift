@@ -53,6 +53,8 @@ During the past 2 weeks or so, I have continued studying Swift via reading Apple
 
 ### August 10
 
+Not much has changed during the time between this weeks update and the last update.  I have learned much more about Swift and have began to do some research on how to build the main timer functionality within my application.  I am very new to programming and as is said very often with anything "the more that you learn, the more you realize how much you don't know".  I feel that this quote is a good representation of the stage that I am at curently.  I know a lot about Swift and think that it is a very neat language but am trying to grasp how to apply apply the principles learned in the Swift book and create an actual IOS application.
+
 ### August 25
 
 ### September 10
