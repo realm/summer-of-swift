@@ -24,6 +24,8 @@ https://github.com/mthistle/HockeyTweetSwift
 
 ### August 25
 
+- Updated to work with Xcode 6 Beta 5
+
 ### September 10
 
 ### September 25
