@@ -22,9 +22,10 @@ https://github.com/xke/SwifterTracker
 
 
 ### July 25
-initial creation of a few template filez
+initial creation of a few template filez.
 
 ### August 10
+hello! no news for now.
 
 ### August 25
 
