@@ -44,6 +44,9 @@ More steady progress on Krate over the past two weeks.  [I wrote a blog post abo
 Also, started work on the point system!  Work was pretty full, so I'm hoping to have more time in August to push forward.
 
 ### August 10
+I was able to dive in the last few days and implement levels (so the game increases in tempo and difficulty) very much like Tetris.  Also, big combos now clear out one "dead" tile.  Plus a variety of other mechanical changes.  Visually, the game looks very much like last update so I'll skip another video for this round.
+
+The great news is all of my basic game systems are in place and my mechanics are very close to being complete.  I hope to have the gameplay finished and locked in by the August 25th update.  I'll use the final month to find an artist and implement all the extras like menus and leaderboards.
 
 ### August 25
 
