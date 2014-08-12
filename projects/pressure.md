@@ -25,7 +25,15 @@ I checked out [this](http://stackoverflow.com/questions/24397927/where-to-find-i
 
 ### July 25
 
+We now have a basic prototype working that prints out the majorRadius of the touch event. 
+
+![Prototype Pressure](http://f.cl.ly/items/2F3u2y050S2P2S3U2g3n/Screen%20Shot%202014-07-24%20at%2010.21.14.png)
+
 ### August 10
+
+I've now started messing around with interface design using Playgrounds.
+
+![Prototype Pano](http://cl.ly/image/2n2I2A2X0d1V/Screen%20Shot%202014-08-07%20at%2018.38.09.png)
 
 ### August 25
 
