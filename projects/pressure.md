@@ -31,6 +31,10 @@ We now have a basic prototype working that prints out the majorRadius of the tou
 
 ### August 10
 
+I've now started messing around with interface design using Playgrounds.
+
+![Prototype Pano](http://cl.ly/image/2n2I2A2X0d1V/Screen%20Shot%202014-08-07%20at%2018.38.09.png)
+
 ### August 25
 
 ### September 10
