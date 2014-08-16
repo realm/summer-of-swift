@@ -36,6 +36,9 @@ I'd like to rewrite it in Swift to compare and contrast, as the original was bui
 
 ### August 10
 
+ * No significant progress due to vacation
+ * radar came back as duplicate, but the issue was mentioned in b5 release notes with "do your unit tests in swift" as a workaround...
+
 ### August 25
 
 ### September 10
