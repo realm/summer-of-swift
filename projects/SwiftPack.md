@@ -23,6 +23,9 @@ Fixed the packer and updated for the latest Xcode
 ### August 10
 Switched to a Mac App. Updated to latest Xcode, but strings are still broken.
 
+### August 17
+Fixed the byte array to string conversion that Xcode-Beta5 broke. Using withUnsafeBufferPointer to access the byte pointer. Have a look at Unpacker -> stringFromSlice for an example.
+
 ### August 25
 
 ### September 10
