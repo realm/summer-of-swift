@@ -36,6 +36,10 @@ I added some basic AI and hooks for more AI.  I had to slightly refactor some of
 
 I'm going to spend some time working on the art and future AI characters.
 
+### August 18
+
+I haven't spent much time on Crump the last couple of weeks unfortunately beyond starting work on some graphics.
+
 ### August 25
 
 ### September 10
