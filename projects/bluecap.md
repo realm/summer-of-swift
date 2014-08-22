@@ -44,3 +44,7 @@ https://github.com/troystribling/BlueCap
 - Completed TI Sensor Tag Service Profile implementations and other examples.
 - Completed struct, pair struct and String Characteristic Profile types.
 - Completed Characteristic Profile browser.
+
+### August 21
+- Completed Peripheral Manager, Mutable Service and Mutable Characteristic implementations.
+- Completed Peripheral Simulator.
