@@ -56,7 +56,17 @@ Unfortunately once you start to use Swift's enums in more powerful ways, you qui
 
 There's still a lot left to do in my project. I never anticipated that the Swift language and compiler would be under such heavy development this summer. Just keeping pace with the language changes and working around compiler instability/bugs has been a challenge.
 
-### August 25
+### August 24
+
+Last week I migrated my project over into a proper [fork](https://github.com/klazuka/thrift) of the Apache Thrift codebase on Github. This will make it easier to begin to integrate with the existing test suite and to begin work on the code generator. So far all I've done is copy over my existing Swift library code into a new 'swift' sub-directory in the 'lib' folder.
+
+Error-handling continues to be an open question for my project. After spending a bunch of time experimenting with functional techniques for "chaining" error-ful computations together, I've switched to exploring a different technique from the world of functional programming: separating out the error-ful code from the pure code. The [original implementation](https://github.com/apache/thrift/blob/6d1a83aa485ed9c3644d3200555700070547bf90/lib/hs/src/Thrift/Protocol.hs) of the Thrift library for Haskell was written in the former style (using the IO monad's "exception" support) where the Thrift 'protocol' layer sat on top of the Thrift 'transport' layer. The transport layer is what reads and writes bytes, and depending on what it's hooked up to (a socket, a file descriptor, a memory buffer) it may generate errors when you read or write. Recently the Haskell Thrift library has been [re-written](https://github.com/apache/thrift/blob/af5d64adb7c2e0ac130e9f9499375429f1408eff/lib/hs/src/Thrift/Protocol.hs) in a style that separates the building/parsing of the encoded Thrift values from the actual reading/writing of bytes from/to the underlying transport. So now there is a 'driver' which runs the transport layer, handles any errors, and provides the bytestream to the protocol layer. This makes the protocol layer much simpler by reducing the number of code paths for handling errors.
+
+I like the latter approach for Swift because it depends less-heavily on custom operators (such as monadic bind and applicative apply). Those functional operators are more easily expressed in Haskell where you have syntactic sugar for monadic bind and function evaluation is lazy and curried by default. So I'm exploring this directly currently in a [branch](https://github.com/klazuka/thrift/blob/swift-error-handling/lib/swift/src/TProtocol.swift) and a [toy parser project](https://github.com/klazuka/Parsec).
+
+In other news, Xcode6-beta6 closes the book on recursive enum types: it's now a compile-time error (previously it was an "unimplemented" assertion failure in the Swift compiler, leaving hope that they would implement it before going 1.0). So it looks we are stuck with boxing the recursive type. Oh well.
+
+I'm going on vacation during the first 2 weeks of September, so this will be the last update until sometime after mid-September.
 
 ### September 10
 
