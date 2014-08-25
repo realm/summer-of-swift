@@ -60,6 +60,40 @@ A couple techniques that we found interesting:
 
 ### August 25
 
+We have an (almost) working LRU disk cache in Swift. Things we found interesting:
+
+##### Using C libraries in framework projects
+
+Apparently this has been negledted up to Beta 5. We want to use CommonCrypto to calculate a MD5 hash and we got it working by using module maps. However, this has two limitations:
+
+* Using the custom framework in another project fails at compile time with the error missing required module 'CommonCrypto'. This is because the CommonCrypto module does not appear to be included with the custom framework. A workaround is to set the Import Paths in the project that uses the framework.
+* The module map is not platform independent (it currently points to a specific platform, the iOS 8 Simulator). We don't know how to make the header path relative to the current platform.
+
+More info: http://stackoverflow.com/questions/25248598/importing-commoncrypto-in-a-swift-framework
+
+##### Golden path/early return with if let
+
+Swift does not appear to be golden path/early return friendly, assuming you use `if let` as encouraged. For example:
+
+    private func calculateSize() {
+        let fileManager = NSFileManager.defaultManager()
+        size = 0
+        let cachePath = self.cachePath
+        var error : NSError?
+        if let contents = fileManager.contentsOfDirectoryAtPath(cachePath, error: &error) as? [String] {
+            for pathComponent in contents {
+                let path = cachePath.stringByAppendingPathComponent(pathComponent)
+                if let attributes : NSDictionary = fileManager.attributesOfItemAtPath(path, error: &error) {
+                    size += attributes.fileSize()
+                } else {
+                    NSLog("Failed to read file size of \(path) with error \(error!)");
+                }
+            }
+        } else {
+            NSLog("Failed to list directory with error \(error!)");
+        }
+    }
+
 ### September 10
 
 ### September 25
