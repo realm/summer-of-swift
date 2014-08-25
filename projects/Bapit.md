@@ -75,6 +75,37 @@ props to Apple for that.
 
 ### August 25
 
+Improve the mechanism by which we have a 'resting' state of the game.
+
+Previously we were changing whether the ball's physicsBody's dynamic
+property was true or not.  This property controls whether it is effected
+by the physics simulation in the page.  So, when it's false it doesn't
+move at all.
+
+However there was a performance hit when turning dynamic to true as
+it required some initial processing to begin emulating how the physics
+in the scene should behave.
+
+As a result you could sometimes tap the ball too soon prompting there
+to be a noticable lag in the game and make the overall game play not as
+smooth as it should be.
+
+Instead I'm taking the route of changing the physicsWorld.speed property
+from 0 to the desired value.  This seems to add no performance hit
+and accomplishes the same thing we wanted to happen.
+
+Fixes for beta6.  The interfacing with obj-c APIs have changed a little.
+
+Tweak animation when going from game scene to game over scene.
+
+Created MainMenuScene as the first thing that people see when they open the app.
+
+It has two buttons right now, one to play and one to go to settings (which
+doesn't exist yet).
+
+Updated the flow of the game to be a little more fluid.  Tweaked the
+animations as well to make it feel more cohesive.
+
 ### September 10
 
 ### September 25
