@@ -248,6 +248,28 @@ Apart from these discoveries and minor frustrations, I'm still plugging away (sl
 
 ### August 25
 
+Normally for just about every software project I've worked on in the last year and a half, I've used [Trello][]. For some reason, [Pinwheel][pinw] (my project for [Summer of Swift][sos]) hasn't been granted its own board yet! Shame on me. [I've rectified that][board]. In the days and weeks to come I'll continue to fill out that board with tons of cards and maybe a new list or two. In the meantime, I'm still mashing my fists against the keyboard in a fit of learning.
+
+I know Objective-C and the Cocoa Touch APIs pretty well at this point, but throwing Swift on top of it complicates things in a way I didn't forsee. Things don't just translate one-to-one from Objective-C. The two big things you've gotta worry about are, not coincidentally enough, two of the biggest features Swift brings to the table.
+
+1. Optionals.
+-  Type casting.
+
+They add a whole new level of *required comprehension* on top of the Cocoa (Touch) APIs.  You have to work with — and sometimes *around* — APIs that return objects that may be nil. This flies right in the face of Objective-C's nil messaging paradigm that I know and (usually) love. You have to know and understand which methods accept and return some weird Swift equivalent of Objective-C's fast-and-loose types (`Unmanaged<AnyObject>`, anyone?).
+
+On top of all that, the most annoying part of learning this stuff is *still* `SourceKitService` crashing every 5 seconds, killing my indentation/syntax highlighting/autocomplete. I keep bitching about this, but it *is* the worst part of it. I can't wait for it to be fixed.
+
+All those issues aside, I'm definitely feeling a bit rusty back in iOS land. I think a large part of my ineptitude in writing this app is due to being "out of the game" somewhat. I've not written any apps in nearly 7 months, which is a tragically long time. More than long enough to forget how in the hell to dynamically size `UICollectionViewCells` with varied `UILabels` inside of them. Tonight it took me nearly an hour to get it right. When I finally did, though, I felt pretty happy about it.
+
+![Basic pins view](http://ben.kree.gr/content/images/2014/Aug/inspector.jpeg)
+
+But seriously, the Developer Tools team really needs to fix `SourceKitService`.
+
+[pinw]:      https://github.com/kreeger/pinwheel
+[trello]:    https://trello.com/kreeger/recommend
+[sos]:       https://github.com/realm/summer-of-swift
+[board]:     https://trello.com/b/Syn1z6ZC
+
 ### September 10
 
 ### September 25
