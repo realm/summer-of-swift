@@ -139,6 +139,35 @@ gets presented modally.
 
 ### August 25
 
+Although I've been in Europe between these two updates (just
+[2 closed issues](https://github.com/aclissold/The-Oakland-Post/issues?q=closed%3A2014-08-05..2014-08-25)),
+I did manage to make
+[23 commits](https://github.com/aclissold/The-Oakland-Post/commits/1a2e3f07ced2cabbde01f6d24ec4fe410d6e8c4a)
+in the past couple days. I fixed quite a few crashes, created
+[p.swift](https://github.com/aclissold/The-Oakland-Post/blob/9d26421d5b8553a19bc5916305a10f874b6ba488/The%20Oakland%20Post/p.swift)
+as an alias for `println()`, and created new Login and Sign Up views.
+
+But perhaps most importantly, I decided on [Parse](https://parse.com/) as a way
+to persist favorited Posts. I'd never heard of it before this week, but its
+ease-of-use is blowing my mind:
+
+``` swift
+let username = usernameTextField.text
+let password = passwordTextField.text
+PFUser.logInWithUsernameInBackground(username, password: password) {
+    // do stuff with the PFUser or NSError arguments to this callback closure
+}
+```
+
+is how simple it is to log in a user on the server! And to think I considered
+writing my own server and networking code. That would have been overkill for
+the scope of this project, and Parse looks like it'll do exactly what I need it
+to.
+
+Other than during the [MHacks](http://mhacks.org/) hackathon September 5th-7th,
+I'm expecting to lay down the law on this project these next two weeks, so stay
+tuned!
+
 ### September 10
 
 ### September 25
