@@ -34,9 +34,13 @@ Next steps:
 - Implement four stations with simple gameplay
 - Add enemy ships and 'adventure' mode
 
-### August 10
+### August 11
+I unfortunately didn't have a chance to anything other than keep the project building with current betas.
 
-### August 25
+### August 26
+I had a chance to make some progress, and am feeling pretty good. I settled on a basic game, and what each station will do. I have Helm almost fully functional, although my math is wrong sometimes.
+
+Multipeer connectivity is the big challenge now. I have two iOS 8 devices so I can test, and hopefully will have that going by the next update.
 
 ### September 10
 
