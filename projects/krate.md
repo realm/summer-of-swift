@@ -49,6 +49,9 @@ I was able to dive in the last few days and implement levels (so the game increa
 The great news is all of my basic game systems are in place and my mechanics are very close to being complete.  I hope to have the gameplay finished and locked in by the August 25th update.  I'll use the final month to find an artist and implement all the extras like menus and leaderboards.
 
 ### August 25
+The summer's chugging right along!  Krate is on track.  Gameplay is basically wrapped.  I've created some design documents and am currently searching for the right artist to add some polish and atmosphere!  A local musician is contributing some tunes.  Everything's coming together!
+
+I also participated in LudumDare this past weekend, which is a 48 hour game making contest.  I made a feel-good, silly game, and I'm really proud of how polished it is for 48 hours.  You can play my entry here: http://www.thinkingswiftly.com/starlight/
 
 ### September 10
 
