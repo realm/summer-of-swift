@@ -40,8 +40,12 @@ I'm going to spend some time working on the art and future AI characters.
 
 I haven't spent much time on Crump the last couple of weeks unfortunately beyond starting work on some graphics.
 
-### August 25
+### September 3
 
-### September 10
+I started integrating my own (not great) artwork and implemented a couple basic AIs.  One AI just randomly moves (EightBall) while the other tries to move in the direction of the closest player (Sun).  In the process I found a couple serious movement bugs (going through a wall in a specific kind of corner, not going from one side of the screen to the other).
+
+Almost every new beta of Swift has required some minor code changes. I hope to really dig into the meat of the game during the next few weeks (developing several levels, support for multiple players (at least 2), and having some kind of objects to collect in each level, as well as cleaning up some graphics).
+
+### September 18
 
 ### September 25
