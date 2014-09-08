@@ -29,6 +29,7 @@ Fixed the byte array to string conversion that Xcode-Beta5 broke. Using withUnsa
 ### August 25
 Updated for Xcode-Beta6. Removed stringFromSlice and replaced it with String.stringWithBytes(bytes: encoding:NSUTF8StringEncoding). Also switched the packer to using string.utf8 to get the string bytes.
 
-### September 10
+### September 7
+Changed the project to build SwiftPack as a separate framework/module from the Application and tests. 
 
 ### September 25
