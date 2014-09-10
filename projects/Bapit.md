@@ -108,4 +108,24 @@ animations as well to make it feel more cohesive.
 
 ### September 10
 
+Sadly I haven't had a lot of time to work on Bapit in the past two weeks.  The only work I've managed to do in this interim is to update my project to be compatible with beta 7.  Today I tried it with the GM and it also worked without edit.
+
+The edits I had to do for beta7 were a little curious as they required adding `?` when accessing certain properties on an object.
+
+For example on a SKScene when showing a new scene, before I could do:
+
+```
+view.presentScene(scene, transition: transition)
+```
+
+Whereas in beta 7 (and GM) I had to modify it to:
+
+```
+view?.presentScene(scene, transition: transition)
+```
+
+Little curious about the why to this change.
+
+Aside from that it was an easy upgrade.
+
 ### September 25
