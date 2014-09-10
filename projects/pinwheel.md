@@ -272,4 +272,6 @@ But seriously, the Developer Tools team really needs to fix `SourceKitService`.
 
 ### September 10
 
+While the last couple of weeks hasn't afforded me too much time to look into Pinwheel, I did get to crack it open in the last Xcode 6 beta and SourceKitService worked quite awesomely. It still has a tendency to barf when you operate inside of a somewhat complex `lazy var` block, and I can verify that's still the case in the final Xcode 6 GM release. It's still in a much better place, however, that I can really dig in and start to fill in the gaps on Pinwheel's functionality. I'm hoping at this point that I can get it out in the App Store by year's end, complete with Extensions for iOS 8, and maybe backwards compatibility support for iOS 7.
+
 ### September 25
