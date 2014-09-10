@@ -96,6 +96,20 @@ Swift does not appear to be golden path/early return friendly, assuming you use 
 
 ### September 10
 
+We now have a fully functional LRU data disk cache and fully functiona memory+disk image cache. Now to polish and add features.
+
+##### How to name block parameters
+
+`*block` parameters didn't feel right in Swift. So instead of...
+
+    public func fetchData(key : String, successBlock : (NSData) -> (), failureBlock : ((NSError?) -> ())? = nil)
+
+...which is very ObjC-like. for starters, these are closures, not blocks. Currently we're doing...
+
+    public func fetchData(key : String, success doSuccess : (NSData) -> (), failure doFailure : ((NSError?) -> ())? = nil)
+
+...which is shorter for both the API user and us. This won't likely be the naming standard, but it beats using `block` in parameter names.
+
 ### September 25
 
 [1]: https://twitter.com/hpique
