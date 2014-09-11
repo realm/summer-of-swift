@@ -170,4 +170,34 @@ tuned!
 
 ### September 10
 
+Two amazing things happened this weekend.
+
+I had a blast at MHacks, coding for 36 hours straight to create
+[TypeOneTwo](https://github.com/bpowell/mhacks) with
+[@bpowell](https://github.com/bpowell) and
+[@swiggins83](https://github.com/swiggins83). There were 1,000 hackers and over
+300 teams… **and we made it into the top ten!** Wow!
+And fascinatingly, I couldn't find any other iOS hackers there using Swift.
+
+At some point during that weekend (all sense of time was a blur), I submitted
+this app to [Hacker News](https://news.ycombinator.com/item?id=8279293). There
+really aren't many examples of large Swift projects out there, and mine passed
+2,000 lines of Swift this period. **It made it to the front page!** I couldn't
+believe it! At nearly 100 stars and over 2000 page hits, I'm very proud of what
+I've done.
+
+Sometimes I stop and think about how much I've learned since
+[a year and a half ago](https://github.com/aclissold/Python/tree/696a1485dfab39ebdc05ef5ad0abc8c1392bdcdd).
+I'm a completely different person.
+
+And as for the app, I finished the login system and started implementing starred
+posts—two very big features—and knocked out
+[2 issues](https://github.com/aclissold/The-Oakland-Post/issues?q=closed%3A2014-08-25..2014-09-10)
+and [21 commits](https://github.com/aclissold/The-Oakland-Post/commits/09e2e0dfb40863cc7a8f0ad739e5f0f4c896602d)
+in the process. I also had a lot of fun learning how to use
+[Sketch](http://bohemiancoding.com/sketch/) to design some
+[icons](https://raw.githubusercontent.com/aclissold/The-Oakland-Post/09e2e0dfb40863cc7a8f0ad739e5f0f4c896602d/The%20Oakland%20Post/Screenshots/Screenshot%201.png).
+It's a great feeling to finally be nearing a release to the App
+Store and be able to think about the app from such a high level.
+
 ### September 25
