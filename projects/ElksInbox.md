@@ -26,10 +26,9 @@ I'm roughly setting up the project repo and figuring out how to best commit a Sw
 
 Added layout mockup both as a screenshot and in Balsamiq Mockups BMML format.
 
-### August 10
+### September 15
 
-### August 25
-
-### September 10
+Base layout code commited.. Warming up!
 
 ### September 25
+
