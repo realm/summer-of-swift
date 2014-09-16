@@ -68,6 +68,8 @@ In other news, Xcode6-beta6 closes the book on recursive enum types: it's now a 
 
 I'm going on vacation during the first 2 weeks of September, so this will be the last update until sometime after mid-September.
 
-### September 10
+### September 15
+
+I made little-to-no progress since the last update while I was on vacation. One thing I learned: there is a new project out there called [swift-cc](https://github.com/swift-cc/tools) to compile Swift code to object files that can be used in an Android app via the NDK/JINI. Looks rough, but promising.
 
 ### September 25
