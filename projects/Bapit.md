@@ -129,3 +129,15 @@ Little curious about the why to this change.
 Aside from that it was an easy upgrade.
 
 ### September 25
+
+Sadly haven't had much time to work on Bapit these past two weeks.
+
+I have been planning out the next changes I need to add before I am ready to publish the game to the App Store.
+
+First: I need to add ads to the game to see if any passive income can be made.  I was considering both iAd and AdMob.  I read a couple of reviews regarding their performance and at the moment I'm leaning towards AdMob as my first ads provider.  I did read that a good practice people have taken is to add a layer of abstraction on top of their ad providers that not only protects against changes in the SDK but also allows you to fall back to an alternative ad network if one ad network isn't able to fill the ad slot.
+
+The last thing to do is add some actual color, style, and design to the application.  I think I'm going to go with a dodgeball theme, where the ball will resemble a dodgeball and the background will look like a schoolyard basketball court with field in the background.  I think this will keep the game light and jovial.
+
+After those two updates I'm going to release a version 1 so that I don't get stuck in development hell.  And then it's onwards to version 2!
+
+Had so much fun learning Swift and SpriteKit this summer.  So glad you guys made this contest.  Thank you!
