@@ -56,3 +56,6 @@ https://github.com/troystribling/BlueCap
 ### September 20
 - Completed scan configuration. Supported modes are Promiscuous and service scan. Region scannerator completed.
 - Started iBeacon support
+
+### September 27
+- Completed iBeacon support.
