@@ -59,3 +59,7 @@ https://github.com/troystribling/BlueCap
 
 ### September 27
 - Completed iBeacon support.
+
+### October 4
+- Completed PeripheralManager service advertisement.
+- Completed PeripheralManager iBeacon configuration.
